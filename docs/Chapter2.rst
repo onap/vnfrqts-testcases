@@ -9,6 +9,12 @@
 Appendix 1 List of VNF Requirements and corresponding Information Elements
 --------------------------------------------------------------------------
 
+.. csv-table:: **Test Descriptions**
+   :file: ReqTable.csv
+   :header-rows: 1
+   :align: center
+   :widths: auto
+
 Appendix 2 List of  VNF Requirements and corresponding Information Elements with Range limits
 ---------------------------------------------------------------------------------------------
 
