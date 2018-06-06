@@ -10,7 +10,7 @@ Version: 1.0.0
 --------------
 
 
-:Release Date: 2018-03-28
+:Release Date: 2018-06-06
 
 
 
@@ -18,6 +18,8 @@ Version: 1.0.0
 	Initial release of VNF Test Cases for Open Network Automation Platform (ONAP)
 
         This intitial releases is based on seed documents that came from Open-O and Open ECOMP. For details, refer `Seed Document Mappings to VNFRQTS Deliverable Outlines <https://wiki.onap.org/display/DW/Seed+Document+Mappings+to+VNFRQTS+Deliverable+Outlines>`_.
+
+        CSV table of testable requirements in VNF Requirements Document
 
 **Bug Fixes**
 	- None
