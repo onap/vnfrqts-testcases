@@ -16,6 +16,16 @@
 **VNF Package Test Cases**
 ==========================
 
+The information in this section deals with the Test Cases corresponding to
+the the VNF Requirements. There are two types:
+
+  1. VNF Package Information Element Present: which is the base case of a
+     Test Case, please refer to :ref:`Annex.<info-elements>`
+
+  2. VNF Package Information Element within Range Limits: refers to a Test Case
+     when there are Range Limits placed, please refer to
+     :ref:`Annex.<info-elements-range-limits>`
+
 VNF Package Information Element Present
 ---------------------------------------
 
