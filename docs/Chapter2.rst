@@ -24,7 +24,7 @@ List of VNF Requirements and corresponding Information Elements
 You can download the table
 :download:`here<ReqTable.csv>`
 
-Included here is a table of VNF Requirements that are mainly referring to 
+Included here is a table of VNF Requirements that are mainly referring to
 the testability of VNF Package requirements. It includes TOSCA or CSAR
 artifact information as well as how it is testable (VNFSDK/VVP/SDC).
 These requirements are mainly from :doc:`Chapter 5 <../../../../vnfrqts/requirements.git/docs/Chapter5/index>`
