@@ -27,7 +27,8 @@ You can download the table
 Included here is a table of VNF Requirements that are mainly referring to
 the testability of VNF Package requirements. It includes TOSCA or CSAR
 artifact information as well as how it is testable (VNFSDK/VVP/SDC).
-These requirements are mainly from :doc:`Chapter 5 <../../../../vnfrqts/requirements.git/docs/Chapter5/index>`
+These requirements are mainly from
+:doc:`Chapter 5 <../../../../vnfrqts/requirements.git/docs/Chapter5/index>`
 and the table has been generated manually to show users what specific
 artifact is being tested by a specific requirement to make mapping possible
 and to show coverage.
@@ -48,7 +49,7 @@ You can download the table
 This table shows all the requirements within the VNF Requirements project with
 the section they are in, associated test names and modules. This is generated
 dynamically within the VVP project, where it pulls down the latest JSON from
-:doc:`Chapter 9 - Requirement List <../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
+:doc:`Req List <../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
 and maps the requirements to the tests in VVP to output this table.
 
    **Note: Tests on the bottom do not map to any requirements.**
