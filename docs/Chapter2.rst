@@ -18,39 +18,28 @@
 
 .. _info-elements:
 
-List of VNF Requirements and corresponding Information Elements
---------------------------------------------------------------------------
-
-You can download the table
-:download:`here<ReqTable.csv>`
-
-Included here is a table of VNF Requirements that are mainly referring to
-the testability of VNF Package requirements. It includes TOSCA or CSAR
-artifact information as well as how it is testable (VNFSDK/VVP/SDC).
-These requirements are mainly from
-:doc:`Chapter 5 <../../../../vnfrqts/requirements.git/docs/Chapter5/index>`
-and the table has been generated manually to show users what specific
-artifact is being tested by a specific requirement to make mapping possible
-and to show coverage.
-
-.. csv-table:: **Test Descriptions**
-   :file: ReqTable.csv
-   :header-rows: 1
-   :align: center
-   :widths: auto
-
-
 List of Requirements with associated Tests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can download the table
-:download:`here<traceability.csv>`
+Currently, there VNFs can be packaged as HEAT templates or in a CSAR file
+using TOSCA.  At this stage, there are two different tools used for
+validating the packages based on the package type:
 
-This table shows all the requirements within the VNF Requirements project with
-the section they are in, associated test names and modules. This is generated
+* CSAR/TOSCA packages leverage VNFSDK
+* HEAT packages leverage VVP
+
+HEAT Package Validations
+------------------------
+
+This table shows all the requirements within the VNF Requirements project and
+if they are validated by VVP.  If they are validated by VVP, then
+the test module and test method is provided.  This is generated
 dynamically within the VVP project, where it pulls down the latest JSON from
 :doc:`Req List <../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
 and maps the requirements to the tests in VVP to output this table.
+
+You can download the table
+:download:`here<traceability.csv>`
 
    **Note: Tests on the bottom do not map to any requirements.**
 
@@ -63,6 +52,13 @@ and maps the requirements to the tests in VVP to output this table.
    :widths: auto
 
 .. _info-elements-range-limits:
+
+CSAR/TOSCA Package Validations
+------------------------------
+
+Please refer to the VNFSDK project's `list of verified requirements <https://onap.readthedocs.io/en/latest/submodules/vnfsdk/model.git/docs/files/VNFSDK-LFN-CVC.html#casablanca-implemented-requriements>`__
+for the current coverage for CSAR and TOSCA.
+
 
 VNF Requirements corresponding Information Elements w/Range limits
 ------------------------------------------------------------------------------
