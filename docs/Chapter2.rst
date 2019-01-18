@@ -35,7 +35,7 @@ This table shows all the requirements within the VNF Requirements project and
 if they are validated by VVP.  If they are validated by VVP, then
 the test module and test method is provided.  This is generated
 dynamically within the VVP project, where it pulls down the latest JSON from
-:doc:`Req List <../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
+:doc:`Req List </../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
 and maps the requirements to the tests in VVP to output this table.
 
 You can download the table
