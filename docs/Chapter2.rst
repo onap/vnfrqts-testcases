@@ -46,7 +46,8 @@ You can download the table
    **Note: VVP only validates Heat for Requirements in Chapter 5.**
 
 .. csv-table:: **Test Traceability**
-   :file: traceability.csv
+   :name: traceability-matrix
+   :file: rst.csv
    :header-rows: 1
    :align: center
    :widths: auto
