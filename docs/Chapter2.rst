@@ -92,4 +92,3 @@ Will be generated in future releases.
 .. [#7.4.1]
    This option is not currently supported in ONAP and it is currently
    under consideration.
-
