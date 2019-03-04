@@ -39,7 +39,7 @@ dynamically within the VVP project, where it pulls down the latest JSON from
 and maps the requirements to the tests in VVP to output this table.
 
 You can download the table
-:download:`here<traceability.csv>`
+`here <https://nexus.onap.org/content/sites/raw/org.onap.vvp.validation-scripts/master/traceability.csv>`_.
 
    **Note: Tests on the bottom do not map to any requirements.**
 
@@ -47,7 +47,7 @@ You can download the table
 
 .. csv-table:: **Test Traceability**
    :name: traceability-matrix
-   :file: rst.csv
+   :url: https://nexus.onap.org/content/sites/raw/org.onap.vvp.validation-scripts/master/rst.csv
    :header-rows: 1
    :align: center
    :widths: auto
