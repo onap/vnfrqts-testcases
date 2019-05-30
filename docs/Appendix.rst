@@ -41,9 +41,9 @@ and maps the requirements to the tests in VVP to output this table.
 You can download the table
 `here <https://nexus.onap.org/content/sites/raw/org.onap.vvp.validation-scripts/master/traceability.csv>`_.
 
-   **Note: Tests on the bottom do not map to any requirements.**
+**Note: Tests on the bottom do not map to any requirements.**
 
-   **Note: VVP only validates Heat for Requirements in Chapter 5.**
+**Note: VVP only validates Heat for Requirements in Chapter 5.**
 
 .. csv-table:: **Test Traceability**
    :name: traceability-matrix
