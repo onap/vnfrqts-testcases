@@ -20,5 +20,7 @@ VNF Test Case Descriptions
     :maxdepth: 2
     :numbered:
 
-    Chapter1
-    Chapter2
+    PackageTests
+    OnboardInstantiateTests
+    Appendix
+    release-notes
