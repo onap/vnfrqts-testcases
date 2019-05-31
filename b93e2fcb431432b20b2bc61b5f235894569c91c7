@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1bf6a02_ef89b0a0",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "are some words missing?",
+      "range": {
+        "startLine": 117,
+        "startChar": 41,
+        "endLine": 118,
+        "endChar": 36
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd56ec8e_36477e8e",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "the name is auto assigned but another data is manually assigned?",
+      "range": {
+        "startLine": 179,
+        "startChar": 44,
+        "endLine": 179,
+        "endChar": 70
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0090cbff_917cf111",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "I assume only GR-API is supported and not VNF-API?  Is CDS supported?  There are no preloads with CDS.  What does \"register\" mean?  Can both APIs and excel be used to preload SDN-C?",
+      "range": {
+        "startLine": 187,
+        "startChar": 4,
+        "endLine": 187,
+        "endChar": 20
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "315c62bd_ab16c65e",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "missing words?",
+      "range": {
+        "startLine": 201,
+        "startChar": 42,
+        "endLine": 201,
+        "endChar": 73
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ae11381_62cca498",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "how is an \"external network\" identified as an OAM network?  Is an assumption needed that the test engine has access to the external network and that the VNFs security group allows pings to the OAM interfaces and that there are no FWs and/or ALCs blocking the ping requests.",
+      "range": {
+        "startLine": 202,
+        "startChar": 37,
+        "endLine": 202,
+        "endChar": 40
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a8255ad3_b38e7c3b",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 4055
+      },
+      "writtenOn": "2019-05-31T13:27:18Z",
+      "side": 1,
+      "message": "this means that GR-API must be used, not VNF-API.  Does CDS create the VNFC object?",
+      "range": {
+        "startLine": 207,
+        "startChar": 19,
+        "endLine": 207,
+        "endChar": 23
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
