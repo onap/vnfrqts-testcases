@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "18d25096_25552db8",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "Yes, I will fix this. The last part should be a separate sentence and state \"Refer to the **Test Engine** documentation for more details.",
+      "parentUuid": "c1bf6a02_ef89b0a0",
+      "range": {
+        "startLine": 117,
+        "startChar": 41,
+        "endLine": 118,
+        "endChar": 36
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cd56ec8e_36477e8e",
         "filename": "docs/OnboardInstantiateTests.rst",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc3c725b_36d9bf45",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "Names need to be auto-assigned to ensure uniqueness in the test environment.  No manual assignment will be supported, but the test engine may assign other values from the test file.  I can revise this to make this more clear.",
+      "parentUuid": "cd56ec8e_36477e8e",
+      "range": {
+        "startLine": 179,
+        "startChar": 44,
+        "endLine": 179,
+        "endChar": 70
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "6454685b_da0ff288",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "CDS is not part of this - preloads only.   CDS would require a manual configuration which we don\u0027t intend to support for this.  Do you think we need an explicit statement about CDS? I left it out of the test execution steps, but if we need and explicit statement then one can be added.\n\nWhat term would you suggest beyond register? Ultimately the test spec is only focused on the logical activities the test engine needs to implement.  I do want it to be clear, but I also don\u0027t want to drill into implementation details either.",
+      "parentUuid": "0090cbff_917cf111",
+      "range": {
+        "startLine": 187,
+        "startChar": 4,
+        "endLine": 187,
+        "endChar": 20
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "315c62bd_ab16c65e",
         "filename": "docs/OnboardInstantiateTests.rst",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3403dc57_a0557a0f",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "yes, I\u0027ll fix this.",
+      "parentUuid": "315c62bd_ab16c65e",
+      "range": {
+        "startLine": 201,
+        "startChar": 42,
+        "endLine": 201,
+        "endChar": 73
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "d23433e6_95c598dd",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "Yes, I can add that assumption.  Ultimately, it would have to be a configuration option of the test engine.  I can make it more explicit that it\u0027s a configuration of the Test Engine, but beyond that I\u0027ll plan to leave that to the documentation of the Test Engine itself.  That work?",
+      "parentUuid": "6ae11381_62cca498",
+      "range": {
+        "startLine": 202,
+        "startChar": 37,
+        "endLine": 202,
+        "endChar": 40
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a8255ad3_b38e7c3b",
         "filename": "docs/OnboardInstantiateTests.rst",
         "patchSetId": 2
@@ -128,6 +248,30 @@
       "writtenOn": "2019-05-31T13:27:18Z",
       "side": 1,
       "message": "this means that GR-API must be used, not VNF-API.  Does CDS create the VNFC object?",
+      "range": {
+        "startLine": 207,
+        "startChar": 19,
+        "endLine": 207,
+        "endChar": 23
+      },
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee6889eb_61517bf4",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-05-31T15:07:08Z",
+      "side": 1,
+      "message": "CDS is not part of this test.\n\nThe comment about VNFC comes from the Heat guidelines themselves.  I did not see any conditional statements about GR vs. VNF API listed there.",
+      "parentUuid": "a8255ad3_b38e7c3b",
       "range": {
         "startLine": 207,
         "startChar": 19,
