@@ -281,6 +281,40 @@
       "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c69f3a5_6d7b4216",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2019-06-10T13:48:45Z",
+      "side": 1,
+      "message": "Is the existence of a VNF instance visible though other ONAP platform components with user interfaces? e.g. SDC, SO etc?",
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aac9b8e_704b6fc1",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2019-06-10T13:48:45Z",
+      "side": 1,
+      "message": "the same pass / fail criteria should also apply to the TOSCA case, though the steps to get there may be different.\nCan our TOSCA experts please confirm?",
+      "revId": "b93e2fcb431432b20b2bc61b5f235894569c91c7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
