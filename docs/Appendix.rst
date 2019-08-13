@@ -13,8 +13,8 @@
    limitations under the License.
 
 
-**Appendix**
-============
+Appendix
+========
 
 .. _info-elements:
 
@@ -38,12 +38,14 @@ dynamically within the VVP project, where it pulls down the latest JSON from
 :doc:`Req List </../../../../vnfrqts/requirements.git/docs/Chapter9/index>`
 and maps the requirements to the tests in VVP to output this table.
 
-You can download the table
-`here <https://nexus.onap.org/content/sites/raw/org.onap.vvp.validation-scripts/master/traceability.csv>`_.
-
 **Note: Tests on the bottom do not map to any requirements.**
 
 **Note: VVP only validates Heat for Requirements in Chapter 5.**
+
+.. admonition:: Download
+
+   You can download the table
+   `here <https://nexus.onap.org/content/sites/raw/org.onap.vvp.validation-scripts/master/traceability.csv>`_.
 
 .. csv-table:: **Test Traceability**
    :name: traceability-matrix

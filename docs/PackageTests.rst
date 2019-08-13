@@ -13,8 +13,8 @@
    limitations under the License.
 
 
-**VNF Package Test Cases**
-==========================
+VNF Package Test Cases
+======================
 
 The information in this section deals with the Test Cases corresponding to
 the the VNF Requirements. There are two types:

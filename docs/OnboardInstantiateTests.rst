@@ -13,8 +13,8 @@
    limitations under the License.
 
 
-**VNF Onboard and Instantiate Test Specification**
-==================================================
+VNF Onboard and Instantiate Test Specification
+==============================================
 
 .. contents::
    :local:
@@ -78,8 +78,8 @@ can serve in multiple roles for the purposes of the test.
   cases.
 
 
-**Test Case Description**: VNF Onboarding and Instantiation using OpenStack Heat
---------------------------------------------------------------------------------
+Test Case Description: VNF Onboarding and Instantiation using OpenStack Heat
+----------------------------------------------------------------------------
 
 This test case is specific to executing and validating the onboarding of a VNF
 using OpenStack Heat.
@@ -222,8 +222,8 @@ some or all of the criteria below may not be executed.
 4. The VNF has a ``VNFC`` object recorded in AAI with all required data elements
 
 
-**Test Case Description**: VNF Onboarding and Instantiation using TOSCA
------------------------------------------------------------------------
+Test Case Description: VNF Onboarding and Instantiation using TOSCA
+-------------------------------------------------------------------
 
 This test case is specific to executing and validating the onboarding of a VNF
 written in TOSCA and packaged in a CSAR.

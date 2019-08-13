@@ -67,7 +67,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u''
-copyright = u'2017 ONAP. Licensed under Creative Commons Attribution 4.0 International License'
+copyright = u'2019 ONAP. Licensed under Creative Commons Attribution 4.0 International License'
 
 
 author = u'Open Network Automation Platform'
@@ -96,7 +96,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-	'_build' 
+	'_build'
 	]
 
 # The reST default role (used for this markup: `text`) to use for all
@@ -138,7 +138,10 @@ html_theme = 'sphinx_rtd_theme'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+	'style_nav_header_background': 'white',
+	'sticky_navigation': False
+	}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
