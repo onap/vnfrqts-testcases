@@ -1,0 +1,3 @@
+# UUID                                                                            	Group Name
+#
+ldap:cn=onap-gerrit-vnfrqts-testcases-committers,ou=Groups,dc=freestandards,dc=org	ldap/onap-gerrit-vnfrqts-testcases-committers
