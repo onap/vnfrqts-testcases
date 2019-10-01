@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8d97e1fa_22ba0076",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-01T13:27:26Z",
+      "side": 1,
+      "message": "This is providing a link to VVP which does not validate TOSCA.  Should this be pointing to VNFSDK or or Dovetail documentation?",
+      "revId": "0999259f23fe6d595523492a7626c3db792673c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40ec9743_6d8c18db",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-01T13:27:26Z",
+      "side": 1,
+      "message": "SDC",
+      "range": {
+        "startLine": 335,
+        "startChar": 39,
+        "endLine": 335,
+        "endChar": 41
+      },
+      "revId": "0999259f23fe6d595523492a7626c3db792673c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bc5b37c8_31e04a19",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-01T13:27:26Z",
+      "side": 1,
+      "message": "The CSAR was already added to the VSP.  Are you required to add the CSAR twice in the TOSCA flow?",
+      "revId": "0999259f23fe6d595523492a7626c3db792673c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "511e2950_57e1f073",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-01T13:27:26Z",
+      "side": 1,
+      "message": "Where are the per instance properties assigned in this approach?",
+      "revId": "0999259f23fe6d595523492a7626c3db792673c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
