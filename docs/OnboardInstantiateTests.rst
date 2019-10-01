@@ -97,8 +97,8 @@ Assumptions
   comprise multiple VNFs is beyond the scope of this specification.
 * The **Test Engine** will have access to the ONAP APIs in terms of both
   network connectivity and API access.
-* All instantiations will use the ONAP Generic Resource API from SDNC instead
-  of the legacy VNF API.
+* VNF Instantiation for either ONAP legacy VNF API or Generic Resource API is
+  supported.
 
 
 Prerequisites
@@ -170,56 +170,56 @@ documentation of the **Test Engine**.
 
 **Steps**
 
-1. Create the generic Vendor License Model (VLM) in SDC
+1. Execute VVP validation scripts to ensure VNF Heat Templates are compliant
+   with the VNF Heat Template Requirements.
 
-2. Create the Vendor Software Product (VSP) in SDC.  The VSP will be
+2. Create the generic Vendor License Model (VLM) in SDC
+
+3. Create the Vendor Software Product (VSP) in SDC.  The VSP will be
    auto-assigned a unique name to avoid collisions with other VSPs in the
    lab environment.
 
-3. Upload the ONAP-compliant Heat archive (zip file) as an artifact of the VSP in SDC.
+4. Upload the ONAP-compliant Heat archive (zip file) as an artifact of the VSP in SDC.
 
-4. Assign any "Unassigned Files" in SDC to Artifacts
+5. Assign any "Unassigned Files" in SDC to Artifacts
 
-5. Validate the VSP and ensure no SDC **errors** are raised, but **warnings**
+6. Validate the VSP and ensure no SDC **errors** are raised, but **warnings**
    are acceptable.  If errors are reported, then halt the test and report a
    failure.
 
-6. Assign the generic VLM to the VSP in SDC.
+7. Assign the generic VLM to the VSP in SDC.
 
-7. Create the Virtual Function (VF) in SD.  The VF will be
+8. Create the Virtual Function (VF) in SD.  The VF will be
    auto-assigned a unique name to avoid collisions with other VSPs in the
    lab environment.
 
-8. Create the Service in SDC. The Service will be
+9. Create the Service in SDC. The Service will be
    auto-assigned a unique name to avoid collisions with other VSPs in the
    lab environment.
 
-9. Assign the VF/VNF to the Service Model in SDC.
+10. Assign the VF/VNF to the Service Model in SDC.
 
-10. Distribute the Service Model from SDC.
+11. Distribute the Service Model from SDC.
 
-11. Register Preload (i.e. per instance configuration data) with SDNC
+12. Register Preload (i.e. per instance configuration data) with SDNC
 
-12. For each VF module in the VNF, starting with the base module, trigger
+13. For each VF module in the VNF, starting with the base module, trigger
     instantiation from VID.
+
+14. After VNF Instantiation, query openstack for heat stack details to 
+    validate successful instantiation.
 
 **Pass/Fail Criteria**
 
 Following, or during, test execution the tests below will be executed to
 evaluate the success of the overall test case.  As previously stated above, if
-any individual test step fails, then the test case will fail.  In this scenario,
-some or all of the criteria below may not be executed.
+any individual test step fails, then the test case will fail.
 
 1. The Heat stack has been successfully created in OpenStack without errors
-2. If the VNF exposes Operations, Administration, and Management (OAM)
-   interfaces on an OAM network, then each IP address address exposed by the
-   VNF on the OAM network must respond to a PING command.  The identification
-   of the OAM network and IPs is left to the implementation and documentation
-   of the **Test Engine**.
-3. Each virtual machine in the OpenStack Heat stack must have a corresponding
-   ``vserver`` ONAP's Available and Active Inventory (AAI) component with all
-   required data elements
-4. The VNF has a ``VNFC`` object recorded in AAI with all required data elements
+
+2. The Heat stack configuration matches the definition from the associated
+   Heat templates and environment settings provided as input (or derived by)
+   the **Test Engine**
 
 
 Test Case Description: VNF Onboarding and Instantiation using TOSCA
