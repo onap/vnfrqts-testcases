@@ -207,19 +207,13 @@ documentation of the **Test Engine**.
 
 Following, or during, test execution the tests below will be executed to
 evaluate the success of the overall test case.  As previously stated above, if
-any individual test step fails, then the test case will fail.  In this scenario,
-some or all of the criteria below may not be executed.
+any individual test step fails, then the test case will fail.
 
 1. The Heat stack has been successfully created in OpenStack without errors
-2. If the VNF exposes Operations, Administration, and Management (OAM)
-   interfaces on an OAM network, then each IP address address exposed by the
-   VNF on the OAM network must respond to a PING command.  The identification
-   of the OAM network and IPs is left to the implementation and documentation
-   of the **Test Engine**.
-3. Each virtual machine in the OpenStack Heat stack must have a corresponding
-   ``vserver`` ONAP's Available and Active Inventory (AAI) component with all
-   required data elements
-4. The VNF has a ``VNFC`` object recorded in AAI with all required data elements
+
+2. The Heat stack configuration matches the definition from the associated
+   Heat templates and environment settings provided as input (or derived by)
+   the **Test Engine**
 
 
 Test Case Description: VNF Onboarding and Instantiation using TOSCA
