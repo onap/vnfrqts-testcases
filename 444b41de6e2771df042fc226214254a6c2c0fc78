@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "069a20b8_e4a7574e",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-03T17:16:16Z",
+      "side": 1,
+      "message": "This link is broken.  I think you want to use this to link to the docs...\n\n:doc:`ONAP VNF Validation Platform \u003c/../../../../vvp/documentation.git/docs/index\u003e`",
+      "range": {
+        "startLine": 256,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 40
+      },
+      "revId": "444b41de6e2771df042fc226214254a6c2c0fc78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
