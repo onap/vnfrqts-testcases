@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "799e3507_ae2afef3",
+        "filename": "docs/OnboardInstantiateTests.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2019-10-04T18:47:11Z",
+      "side": 1,
+      "message": "Sorry, shouldn\u0027t this be the ONAP VNFSDK project?  VVP only validates Heat based VNFs - not TOSCA based VNFs.",
+      "range": {
+        "startLine": 255,
+        "startChar": 53,
+        "endLine": 255,
+        "endChar": 81
+      },
+      "revId": "9a999b6a21da46e2ae307fcfc84a7ad6b55335a6",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
