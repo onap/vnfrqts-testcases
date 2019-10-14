@@ -250,8 +250,8 @@ Prerequisites
 
 * **VNF Provider** has:
 
-   * Provided the **Tester** the VNF package containing OpenStack TOSCA that has
-     been certified compliant by the OPNFV Verification Program for
+   * Provided the **Tester** the TOSCA based VNF Package that has
+     been certified compliant by the LFN OVP(OPNFV Verification Program) for
      VNFs or validated by the El Alto release of the ONAP VNFSDK
    * Provided the **Tester** any custom virtual machine image required by the
      VNF
@@ -371,15 +371,9 @@ any individual test step fails, then the test case will fail.
 
 1. The virtual machine has been successfully created in OpenStack without errors.
 
-2. If the VNF exposes Operations, Administration, and Management (OAM)
-   interfaces on an OAM network, then each IP address address exposed by the
-   VNF on the OAM network must respond to a PING command.  The identification
-   of the OAM network and IPs is left to the implementation and documentation
-   of the **Test Engine**.
-
-3. Each virtual machine in the OpenStack must have a corresponding
+2. Each virtual machine in the OpenStack must have a corresponding
    ``vserver`` ONAP's Available and Active Inventory (AAI) component with all
    required data elements.
 
-4. The VNF has a ``Generic-VNF`` object recorded in AAI with all required data elements.
+3. The VNF has a ``Generic-VNF`` object recorded in AAI with all required data elements.
 
