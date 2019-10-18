@@ -377,3 +377,4 @@ any individual test step fails, then the test case will fail.
 
 3. The VNF has a ``Generic-VNF`` object recorded in AAI with all required data elements.
 
+
